@@ -1,0 +1,56 @@
+# # ignores for git
+# /.git
+# /.gitignore
+# /.gitattributes
+# /.gitmodules
+# /.gitkeep
+
+# files
+!/routes
+!/.env.example
+!/.gitignore
+!/index.js
+!/package.json
+!/package-lock.json
+!/README.md
+!/LICENSE
+
+# ignores for private files
+/**/.env
+!/**/.env.example
+/**/logs
+/**/node_modules
+/**/npm-debug.log
+/**/yarn-debug.log
+/**/yarn-error.log
+/**/yarn.lock
+!/**/package.json
+!/**/package-lock.json
+/**/*.log
+/**/*.log.*
+
+# # ignores for build
+# dist
+# build
+# coverage
+
+# ignores for ide and editor
+/**/.idea
+/**/.vscode
+/**/*.iml
+/**/*.ipr
+/**/*.iws
+/**/*.sublime-workspace
+/**/*.sublime-project
+/**/*.swp
+/**/*.swo
+/**/*.swn
+/**/*.suo
+/**/*.sln
+/**/*.sdf
+/**/*.suo
+/**/*.lnk
+/**/*.tmp
+/**/*.bak
+/**/*.old
+/**/*.tmp

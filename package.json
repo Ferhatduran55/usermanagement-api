@@ -1,0 +1,27 @@
+{
+  "name": "usermanagement-api",
+  "description": "Usermanagement API with Express. Insert, Update, Delete, Get/Show methods allow use with uuid and show all",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferhatduran55/usermanagement-api.git"
+  },
+"keywords": ["usermanagement", "api", "express", "nodejs", "uuid", "insert", "update", "delete", "get", "show", "all"],
+  "author": "Ferhatduran55",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferhatduran55/usermanagement-api/issues"
+  },
+  "homepage": "https://github.com/ferhatduran55/usermanagement-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {}
+}
